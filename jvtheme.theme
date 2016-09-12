@@ -1,0 +1,8 @@
+<?php
+
+/*
+// Print view block in node
+function jvtheme_preprocess_node(&$variables) {
+  $variables['TWIGNAME_VAR'] = views_embed_view('VIEW_NAME', 'VIEW_DISPLAY_NAME');
+}
+*/

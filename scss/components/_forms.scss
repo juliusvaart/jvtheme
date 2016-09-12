@@ -1,0 +1,33 @@
+/*
+
+    Forms
+
+*/
+
+$rood: #E14233;
+$lichtgrijs: #F2F2F2;
+
+input {
+  display: inline-block;
+  width: auto;
+  box-sizing: border-box;
+}
+
+input[type=text],
+input[type=password] {
+  display: block;
+  background: $lichtgrijs;
+  border: none;
+  border-bottom: 2px solid #aaa;
+  width: 100%;
+}
+
+input[type=submit] {
+  background: $rood;
+  border: none;
+  color: #fff;
+  transition: background 0.15s;
+  &:hover {
+    background: darken($rood, 20%);
+  }
+}

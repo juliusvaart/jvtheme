@@ -1,0 +1,15 @@
+name: Julius Vaart Theme # Rename
+description: 'Use as base theme and makes the lives easier'
+type: theme
+core: 8.x
+base theme: classy # or choose 'stable' for less classes
+libraries:
+  - theme/global-css # Rename theme
+  - theme/global-js # Rename theme
+#  - theme/typekit-js # Typekit JS
+ckeditor_stylesheets:
+  - css/ckeditor.css
+regions:
+  header: Header
+  content: Content
+  footer: Footer

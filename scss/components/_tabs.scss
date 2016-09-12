@@ -1,0 +1,19 @@
+
+
+#block-tabs {
+  text-align: center;
+  background: #aaa;
+  ul,li {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    margin: 0;
+    line-height: 40px;
+    padding: 0 1em;
+  }
+  .is-active a {
+    background: #fff;
+  }
+}
+

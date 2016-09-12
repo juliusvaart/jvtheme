@@ -1,0 +1,15 @@
+p {
+  font-size: 15px;
+  line-height: 20px;
+  margin: 20px 0;
+  font-family: sans-serif;
+}
+
+blockquote {
+  font-weight: bold;
+  font-style: italic;
+}
+
+img {
+  display: block;
+}

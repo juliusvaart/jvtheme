@@ -1,0 +1,19 @@
+global-css:
+  css:
+    component:
+      css/components.css: {}
+    theme:
+      css/style.css: {}
+
+global-js:
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+
+#typekit-js:
+#  js:
+#    js/typekit.js: {}
+

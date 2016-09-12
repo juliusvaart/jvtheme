@@ -1,0 +1,18 @@
+jvtheme.mobile:
+  label: mobile
+  mediaQuery: 'all and (max-width: 991px)'
+  weight: 0
+  multipliers:
+   - 2x
+jvtheme.pc:
+  label: pc
+  mediaQuery: 'all and (min-width: 992px)'
+  weight: 2
+  multipliers:
+    - 2x
+jvtheme.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 1441px)'
+  weight: 3
+  multipliers:
+    - 2x
