@@ -14,20 +14,28 @@ input {
 }
 
 input[type=text],
-input[type=password] {
-  display: block;
+input[type=password],
+input[type="search"],
+textarea {
   background: $lichtgrijs;
   border: none;
   border-bottom: 2px solid #aaa;
-  width: 100%;
+  //line-height: 1em;
+  padding: 0.5em 0.25em;
 }
 
 input[type=submit] {
-  background: $rood;
   border: none;
-  color: #fff;
+  border-bottom: 2px solid #76cb77;
+  background: #9ff7a0;
   transition: background 0.15s;
+  padding: 0.5em 0.75em;
+  border-radius: 8px;
   &:hover {
-    background: darken($rood, 20%);
+    background: #76cb77;
   }
+}
+
+label {
+  display: block;
 }

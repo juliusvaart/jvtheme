@@ -1,11 +1,11 @@
-name: Julius Vaart Theme # Rename
+name: jvtheme
 description: 'Use as base theme and makes the lives easier'
 type: theme
 core: 8.x
-base theme: classy # or choose 'stable' for less classes
+base theme: classy
 libraries:
-  - theme/global-css # Rename theme
-  - theme/global-js # Rename theme
+  - jvtheme/global-css
+  - jvtheme/global-js
 #  - theme/typekit-js # Typekit JS
 ckeditor_stylesheets:
   - css/ckeditor.css

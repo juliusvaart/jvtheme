@@ -1,0 +1,20 @@
+table {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+
+  td {
+    padding: 0.25em;
+
+  }
+
+  tr {
+    //border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+
+  .region-title {
+    //color: #fff;
+    background: #eee;
+  }
+}
